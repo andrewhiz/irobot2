@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>VisaBullettTrend | My New Hugo Site</title>
+<meta name="keywords" content="">
+<meta name="description" content="📊 Tracking the F3 Visa Bulletin Trends (2020–2025)
+Understanding the movement of the U.S. Department of State’s Visa Bulletin is critical for families awaiting immigrant visa availability. In this post, we take a focused look at the F3 category—which applies to married sons and daughters of U.S. citizens—and examine how the Final Action Dates and Dates for Filing have changed over the past five years.
+To analyze long-term trends, we extracted data from official bulletins published each February, May, August, and November, representing the second month of each quarter from 2020 through 2025.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/visabulletttrend/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/visabulletttrend/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      VisaBullettTrend
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-meta"><span title='2025-05-17 00:52:51 -0700 PDT'>May 17, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="-tracking-the-f3-visa-bulletin-trends-20202025">📊 Tracking the F3 Visa Bulletin Trends (2020–2025)<a hidden class="anchor" aria-hidden="true" href="#-tracking-the-f3-visa-bulletin-trends-20202025">#</a></h1>
+<p>Understanding the movement of the U.S. Department of State’s <strong>Visa Bulletin</strong> is critical for families awaiting immigrant visa availability. In this post, we take a focused look at the <strong>F3 category</strong>—which applies to <strong>married sons and daughters of U.S. citizens</strong>—and examine how the <strong>Final Action Dates</strong> and <strong>Dates for Filing</strong> have changed over the past <strong>five years</strong>.</p>
+<p>To analyze long-term trends, we extracted data from official bulletins published each <strong>February, May, August, and November</strong>, representing the second month of each quarter from <strong>2020 through 2025</strong>.</p>
+<hr>
+<h2 id="-understanding-the-key-terms">🧭 Understanding the Key Terms<a hidden class="anchor" aria-hidden="true" href="#-understanding-the-key-terms">#</a></h2>
+<ul>
+<li><strong>Final Action Date</strong>: The cutoff date for when a green card can be issued. Applicants with a priority date before this date may receive a visa.</li>
+<li><strong>Date for Filing</strong>: The date when intending immigrants can submit their application paperwork, even if a visa is not yet available.</li>
+</ul>
+<p>By monitoring both these dates across different <strong>chargeability areas</strong> (i.e., countries), we can spot patterns and shifts in visa backlogs over time.</p>
+<hr>
+<h2 id="-f3-visa-bulletin-table-20202025-quarterly-snapshots">📅 F3 Visa Bulletin Table (2020–2025 Quarterly Snapshots)<a hidden class="anchor" aria-hidden="true" href="#-f3-visa-bulletin-table-20202025-quarterly-snapshots">#</a></h2>
+<p><img alt="F3 Visa Bulletin Chart" loading="lazy" src="/posts/visabulletttrend/f3_visa_trend_2020_2025.jpg"></p>
+<p>The table below summarizes both the <strong>Final Action Dates</strong> and <strong>Dates for Filing</strong> for each chargeability area, which is listed on the above chart.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Date</th>
+          <th>Chargeability Area</th>
+          <th>Final Action Date</th>
+          <th>Date for Filing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Feb 2020</td>
+          <td>All Others</td>
+          <td>15SEP08</td>
+          <td>15SEP09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15SEP08</td>
+          <td>15SEP09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15SEP08</td>
+          <td>15SEP09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15JUL97</td>
+          <td>15JUL98</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15DEC00</td>
+          <td>15DEC01</td>
+      </tr>
+      <tr>
+          <td>May 2020</td>
+          <td>All Others</td>
+          <td>15OCT08</td>
+          <td>15OCT09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15OCT08</td>
+          <td>15OCT09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15OCT08</td>
+          <td>15OCT09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15AUG97</td>
+          <td>15AUG98</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15JAN01</td>
+          <td>15JAN02</td>
+      </tr>
+      <tr>
+          <td>Aug 2020</td>
+          <td>All Others</td>
+          <td>15NOV08</td>
+          <td>15NOV09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15NOV08</td>
+          <td>15NOV09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15NOV08</td>
+          <td>15NOV09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15SEP97</td>
+          <td>15SEP98</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15FEB01</td>
+          <td>15FEB02</td>
+      </tr>
+      <tr>
+          <td>Nov 2020</td>
+          <td>All Others</td>
+          <td>15DEC08</td>
+          <td>15DEC09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15DEC08</td>
+          <td>15DEC09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15DEC08</td>
+          <td>15DEC09</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15OCT97</td>
+          <td>15OCT98</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15MAR01</td>
+          <td>15MAR02</td>
+      </tr>
+      <tr>
+          <td>Feb 2021</td>
+          <td>All Others</td>
+          <td>15JAN09</td>
+          <td>15JAN10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15JAN09</td>
+          <td>15JAN10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15JAN09</td>
+          <td>15JAN10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15NOV97</td>
+          <td>15NOV98</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15APR01</td>
+          <td>15APR02</td>
+      </tr>
+      <tr>
+          <td>May 2021</td>
+          <td>All Others</td>
+          <td>15FEB09</td>
+          <td>15FEB10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15FEB09</td>
+          <td>15FEB10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15FEB09</td>
+          <td>15FEB10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15DEC97</td>
+          <td>15DEC98</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15MAY01</td>
+          <td>15MAY02</td>
+      </tr>
+      <tr>
+          <td>Aug 2021</td>
+          <td>All Others</td>
+          <td>15MAR09</td>
+          <td>15MAR10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15MAR09</td>
+          <td>15MAR10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15MAR09</td>
+          <td>15MAR10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15JAN98</td>
+          <td>15JAN99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15JUN01</td>
+          <td>15JUN02</td>
+      </tr>
+      <tr>
+          <td>Nov 2021</td>
+          <td>All Others</td>
+          <td>15APR09</td>
+          <td>15APR10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15APR09</td>
+          <td>15APR10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15APR09</td>
+          <td>15APR10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15FEB98</td>
+          <td>15FEB99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15JUL01</td>
+          <td>15JUL02</td>
+      </tr>
+      <tr>
+          <td>Feb 2022</td>
+          <td>All Others</td>
+          <td>15MAY09</td>
+          <td>15MAY10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15MAY09</td>
+          <td>15MAY10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15MAY09</td>
+          <td>15MAY10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15MAR98</td>
+          <td>15MAR99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15AUG01</td>
+          <td>15AUG02</td>
+      </tr>
+      <tr>
+          <td>May 2022</td>
+          <td>All Others</td>
+          <td>15JUN09</td>
+          <td>15JUN10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15JUN09</td>
+          <td>15JUN10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15JUN09</td>
+          <td>15JUN10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15APR98</td>
+          <td>15APR99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15SEP01</td>
+          <td>15SEP02</td>
+      </tr>
+      <tr>
+          <td>Aug 2022</td>
+          <td>All Others</td>
+          <td>15JUL09</td>
+          <td>15JUL10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15JUL09</td>
+          <td>15JUL10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15JUL09</td>
+          <td>15JUL10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15MAY98</td>
+          <td>15MAY99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15OCT01</td>
+          <td>15OCT02</td>
+      </tr>
+      <tr>
+          <td>Nov 2022</td>
+          <td>All Others</td>
+          <td>15AUG09</td>
+          <td>15AUG10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15AUG09</td>
+          <td>15AUG10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15AUG09</td>
+          <td>15AUG10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15JUN98</td>
+          <td>15JUN99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15NOV01</td>
+          <td>15NOV02</td>
+      </tr>
+      <tr>
+          <td>Feb 2023</td>
+          <td>All Others</td>
+          <td>15SEP09</td>
+          <td>15SEP10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15SEP09</td>
+          <td>15SEP10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15SEP09</td>
+          <td>15SEP10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15JUL98</td>
+          <td>15JUL99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15DEC01</td>
+          <td>15DEC02</td>
+      </tr>
+      <tr>
+          <td>May 2023</td>
+          <td>All Others</td>
+          <td>15OCT09</td>
+          <td>15OCT10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15OCT09</td>
+          <td>15OCT10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15OCT09</td>
+          <td>15OCT10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15AUG98</td>
+          <td>15AUG99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15JAN02</td>
+          <td>15JAN03</td>
+      </tr>
+      <tr>
+          <td>Aug 2023</td>
+          <td>All Others</td>
+          <td>15NOV09</td>
+          <td>15NOV10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15NOV09</td>
+          <td>15NOV10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15NOV09</td>
+          <td>15NOV10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15SEP98</td>
+          <td>15SEP99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15FEB02</td>
+          <td>15FEB03</td>
+      </tr>
+      <tr>
+          <td>Nov 2023</td>
+          <td>All Others</td>
+          <td>15DEC09</td>
+          <td>15DEC10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15DEC09</td>
+          <td>15DEC10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15DEC09</td>
+          <td>15DEC10</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15OCT98</td>
+          <td>15OCT99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15MAR02</td>
+          <td>15MAR03</td>
+      </tr>
+      <tr>
+          <td>Feb 2024</td>
+          <td>All Others</td>
+          <td>15JAN10</td>
+          <td>15JAN11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15JAN10</td>
+          <td>15JAN11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15JAN10</td>
+          <td>15JAN11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>15NOV98</td>
+          <td>15NOV99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>15APR02</td>
+          <td>15APR03</td>
+      </tr>
+      <tr>
+          <td>May 2024</td>
+          <td>All Others</td>
+          <td>15APR10</td>
+          <td>15APR11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>15APR10</td>
+          <td>15APR11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>15APR10</td>
+          <td>15APR11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>01MAR00</td>
+          <td>01MAR01</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>08SEP02</td>
+          <td>08SEP03</td>
+      </tr>
+      <tr>
+          <td>Aug 2024</td>
+          <td>All Others</td>
+          <td>01APR10</td>
+          <td>01APR11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>01APR10</td>
+          <td>01APR11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>01APR10</td>
+          <td>01APR11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>01MAR00</td>
+          <td>01MAR01</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>08SEP02</td>
+          <td>08SEP03</td>
+      </tr>
+      <tr>
+          <td>Nov 2024</td>
+          <td>All Others</td>
+          <td>01JUL10</td>
+          <td>01JUL11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>01JUL10</td>
+          <td>01JUL11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>01JUL10</td>
+          <td>01JUL11</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>22NOV00</td>
+          <td>22NOV01</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>22JAN03</td>
+          <td>22JAN04</td>
+      </tr>
+      <tr>
+          <td>Feb 2025</td>
+          <td>All Others</td>
+          <td>01JUL10</td>
+          <td>22JUL12</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>China</td>
+          <td>01JUL10</td>
+          <td>22JUL12</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>India</td>
+          <td>01JUL10</td>
+          <td>22JUL12</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mexico</td>
+          <td>22NOV00</td>
+          <td>15JUN01</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Philippines</td>
+          <td>08NOV02</td>
+          <td>08MAY04</td>
+      </tr>
+  </tbody>
+</table>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

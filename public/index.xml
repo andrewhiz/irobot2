@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 May 2025 00:52:51 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VisaBullettTrend</title>
+      <link>http://localhost:1313/posts/visabulletttrend/</link>
+      <pubDate>Sat, 17 May 2025 00:52:51 -0700</pubDate>
+      <guid>http://localhost:1313/posts/visabulletttrend/</guid>
+      <description>&lt;h1 id=&#34;-tracking-the-f3-visa-bulletin-trends-20202025&#34;&gt;📊 Tracking the F3 Visa Bulletin Trends (2020–2025)&lt;/h1&gt;
+&lt;p&gt;Understanding the movement of the U.S. Department of State’s &lt;strong&gt;Visa Bulletin&lt;/strong&gt; is critical for families awaiting immigrant visa availability. In this post, we take a focused look at the &lt;strong&gt;F3 category&lt;/strong&gt;—which applies to &lt;strong&gt;married sons and daughters of U.S. citizens&lt;/strong&gt;—and examine how the &lt;strong&gt;Final Action Dates&lt;/strong&gt; and &lt;strong&gt;Dates for Filing&lt;/strong&gt; have changed over the past &lt;strong&gt;five years&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;To analyze long-term trends, we extracted data from official bulletins published each &lt;strong&gt;February, May, August, and November&lt;/strong&gt;, representing the second month of each quarter from &lt;strong&gt;2020 through 2025&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
