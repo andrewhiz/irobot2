@@ -6,7 +6,6 @@ title = 'VisaBullettTrend'
 # 📊 Tracking the F3 Visa Bulletin Trends (2020–2025)
 
 Understanding the movement of the U.S. Department of State’s **Visa Bulletin** is critical for families awaiting immigrant visa availability. In this post, we take a focused look at the **F3 category**—which applies to **married sons and daughters of U.S. citizens**—and examine how the **Final Action Dates** and **Dates for Filing** have changed over the past **five years**.
-
 To analyze long-term trends, we extracted data from official bulletins published each **February, May, August, and November**, representing the second month of each quarter from **2020 through 2025**.
 
 ---
